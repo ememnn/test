@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登录页面</title>
+	<link rel="stylesheet" href="common.css">
+	<style>
+		#all{
+			width: 90%;
+			height: 800px;
+			position: relative;
+            top:30px;
+		}
+		#a{
+			display: inline-block;
+			width:50%;
+			height: 700px;
+			margin-left:40px;
+			
+			
+			
+		}
+		#b{
+			display: inline-block;
+			float: right;
+			width: 40%;
+			height: 700px;
+			
+		}
+		#user, #pw{
+			
+			width:40%;
+			height:25px;
+			margin-top:18px;
+			
+		}
+		#submit{
+			position: relative;
+			top:20px;
+			left:120px;
+			width: 60px;
+			height: 25px;
+		}
+		#c {
+			display: inline-block;
+			position: relative;
+			top:15px;
+			left: 130px;
+		}
+		#c a{
+			display:block;
+			float: left;
+			text-decoration: none;
+			color: rgba(42,111,150,1.00);
+			font-size: 16px;
+		}
+		#c a:hover{
+			
+			color:red;
+			
+			
+		}
+		p{
+			font-family: "黑体";
+			font-size: 20px;
+		}
+		h1{
+			text-align: center;
+			margin-bottom:50px;
+		}
+	
+	
+	</style>
+</head>
+
+<body>
+	<table width="100%"  id="table">
+  
+    <tr>
+      <td height="78"><table width="100%">
+        
+          <tr>
+            <td width="12%" height="32">&nbsp;</td>
+            <td width="12%"><a href="login.html">登录/注册</a></td>
+            <td width="12%"><a href="">失物招领</a></td>
+            <td width="12%"><a href="finding.html">寻物启事</a></td>
+            <td width="12%"><a href="">成功案例</a></td>
+            <td width="12%"><a href="">联系我们</a></td>
+            <td width="12%"><a href=""> 帮助</a></td>
+            <td width="9%">&nbsp;</td>
+          </tr>
+        
+      </table></td>
+    </tr>
+  
+</table>
+	<div id="all">
+		<h1>用户登录</h1>
+	<div  id="a">
+		
+	  <h2>登录方式一: 用户名+密码</h2>
+<p>优点:不依赖微信,方便交接账号</p>
+<p>如果您是机构用户,会重复发布信息,建议您选择此种登录方式<br>
+
+如果机构用户坚持要使用微信登录,请在首次登录后,将账户的用户类型修改为"机构"<br>
+操作路径:用户名/我的资料/编辑我的资料<br>
+若无账号,请点击"新用户注册"</p>
+
+		<form action="">
+		  用户名：
+		  <input type="text" id="user"><br>
+		  密码：&nbsp;&nbsp;&nbsp;
+		 <input type="text" id="pw"><br>
+		 <input type="submit" value="提交" id="submit">
+		<div id="c">
+		<p><a href="regist.html" >新用户注册</a> &nbsp;&nbsp;<a href="" >忘记密码</a></p>
+		</div>
+		</form>
+		
+	
+	</div>
+	<div  id="b">
+	<h2>登录方式二: 微信扫码</h2>
+<p>优点:快捷方便,无需注册,直接发布</p>
+<p>如果您是个人用户,只需发布一条信息,建议您选择此种登录方式
+</p>
+		<img src="1.png" alt="" width="290" height="300">
+	
+	</div>
+		</div>
+</body>
+</html>
